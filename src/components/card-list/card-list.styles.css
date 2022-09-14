@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+.cards-container {
+    margin: 0 auto;
+    height: 60vh;
+    width: 95vw; 
+    padding: 25px; 
+    margin-top: 1rem;
+    overflow: scroll; 
+	overflow-y: visible;
+    overflow-x: hidden;
+    justify-content: center;
+    text-align: center;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 15px;
+    /* display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 20px; */
+} 
+
+
+/* CUSTOM scrollbar */
+.cards-container::-webkit-scrollbar {
+    width: 1rem;
+}
+.cards-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.cards-container::-webkit-scrollbar-thumb {
+    outline: 1px solid rgba(255, 123, 0, 0.49);
+    background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+    border-radius: 100px;
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}

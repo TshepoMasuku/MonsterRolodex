@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 305px; 
+    width: 250px; 
+    background-color: rgba(0, 255, 255, 0.61); 
+    border: 2.5px solid rgb(229, 86, 86); 
+    border-radius: 66px; 
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card__img {
+    height: 150px; 
+    width: 250px;
+    border-radius: 63px 63px 0px 0px; 
+    background-color: rgba(122, 58, 201, 0.51); 
+}
+
+div > h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Roboto Mono', monospace;
+}
