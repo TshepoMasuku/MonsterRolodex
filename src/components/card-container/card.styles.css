@@ -1,7 +1,7 @@
 .card {
     display: flex;
     flex-direction: column;
-    height: 305px; 
+    height: 250px; 
     width: 250px; 
     background-color: rgba(0, 255, 255, 0.61); 
     border: 2.5px solid rgb(229, 86, 86); 
@@ -25,4 +25,5 @@
 
 div > h1,h2,h3,h4,h5,h6,p {
     font-family: 'Roboto Mono', monospace;
+    margin: 0.25rem;
 }

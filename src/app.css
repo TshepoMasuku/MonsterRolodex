@@ -5,7 +5,23 @@
     font-family: 'Sacramento', cursive;
     font-family: 'Bigelow Rules', cursive;
     font-weight: bold;
-    font-size: 5rem;
-    margin-top: 1rem;
+    font-size: 5.25rem;
+    padding-inline: 1rem;
     color: #45049f90;
+}
+
+@media only screen and (max-width:768px) {
+    .title {
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .title {
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width:1440px) {
+    .title {
+        font-size: 8rem;
+    }
 }
